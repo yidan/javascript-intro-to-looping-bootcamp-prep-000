@@ -16,7 +16,7 @@ function whileLoop(n){
 
 function doWhileLoop(array){
   while (array.length> 0 && maybeTrue()){
-    delete array[0]
+    array.shift()
   }
 
   return array
